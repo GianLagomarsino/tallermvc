@@ -21,16 +21,26 @@
 			<li class="active">
 			<a href="<?php echo base_url('index.php'); ?>">Inicio</a>
 			</li>
-            <li>
+          
+			<li>
 			<a href="<?php echo base_url('index.php/productos/administracion'); ?>">Productos</a> 
 			</li>
-               <li>
+			
+			<li>
+			<a href="<?php echo base_url('index.php/proveedores/admin_proveedor'); ?>">Proveedores</a> 
+			</li>  			
+               
+			<li>
 			<a href="<?php echo base_url('index.php/trabajadores/administracion'); ?>">Trabajadores</a> 
 			</li>
-              <li>
+            
+			<li>
 			<a href="<?php echo base_url('index.php/usuarios/admin_usuario'); ?>">Usuarios</a> 
 			</li>  			
+                
+
                 </ul>
+				
             </div>
             <!-- /.navbar-collapse -->
         </div>
