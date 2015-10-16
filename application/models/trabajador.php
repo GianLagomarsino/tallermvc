@@ -1,9 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class usuario extends CI_Model {
+class trabajador extends CI_Model {
 	
 	
-	function obtenerUsuario()
+	function obtenerTrabajador()
 	{
 		$this->db->select('*')->from('trabajadores');
 		$query= $this->db->get();

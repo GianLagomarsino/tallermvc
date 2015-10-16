@@ -26,7 +26,10 @@
 			</li>
                <li>
 			<a href="<?php echo base_url('index.php/trabajadores/administracion'); ?>">Trabajadores</a> 
-			</li>                 
+			</li>
+              <li>
+			<a href="<?php echo base_url('index.php/usuarios/admin_usuario'); ?>">Usuarios</a> 
+			</li>  			
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
