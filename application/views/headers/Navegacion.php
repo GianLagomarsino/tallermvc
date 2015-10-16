@@ -38,7 +38,10 @@
 			<a href="<?php echo base_url('index.php/usuarios/admin_usuario'); ?>">Usuarios</a> 
 			</li>  			
                 
-
+<li>
+			<a href="<?php echo base_url('index.php/sucursales/admin_sucursal'); ?>">Sucursal</a> 
+			</li> 
+			
                 </ul>
 				
             </div>
